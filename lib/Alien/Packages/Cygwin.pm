@@ -6,7 +6,7 @@ use IPC::Cmd qw( can_run );
 use IPC::Run qw( run );
 
 # ABSTRACT: Get information from Cygwin's packages via cygcheck
-our $VERSION = '0.02'; # VERSION
+our $VERSION = '0.03'; # VERSION
 
 
 if(eval { require Alien::Packages::Base; 1 })
@@ -78,13 +78,15 @@ __END__
 
 =pod
 
+=encoding UTF-8
+
 =head1 NAME
 
 Alien::Packages::Cygwin - Get information from Cygwin's packages via cygcheck
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 

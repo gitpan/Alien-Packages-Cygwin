@@ -4,7 +4,7 @@
       "Graham Ollis <plicease@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300039, CPAN::Meta::Converter version 2.132661",
+   "generated_by" : "Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.141170",
    "license" : [
       "perl_5"
    ],
@@ -13,15 +13,15 @@
       "version" : "2"
    },
    "name" : "Alien-Packages-Cygwin",
-   "no_index" : {
-      "directory" : [
-         "inc"
-      ]
-   },
    "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Module::Build" : "0.28"
+         }
+      },
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "6.30"
+            "Module::Build" : "0.28"
          }
       },
       "runtime" : {
@@ -36,22 +36,22 @@
       },
       "test" : {
          "requires" : {
-            "Test::More" : "0"
+            "Test::More" : "0.94"
          }
       }
    },
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/plicease/alien-packages-cygwin/issues"
+         "web" : "https://github.com/plicease/Alien-Packages-Cygwin/issues"
       },
-      "homepage" : "http://perl.wdlabs.com/Alien-Packages-Cygwin/",
+      "homepage" : "http://perl.wdlabs.com/Alien-Packages-Cygwin",
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/plicease/alien-packages-cygwin.git",
-         "web" : "https://github.com/plicease/alien-packages-cygwin"
+         "url" : "git://github.com/plicease/Alien-Packages-Cygwin.git",
+         "web" : "https://github.com/plicease/Alien-Packages-Cygwin"
       }
    },
-   "version" : "0.02"
+   "version" : "0.03"
 }
 

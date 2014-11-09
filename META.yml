@@ -3,19 +3,17 @@ abstract: "Get information from Cygwin's packages via cygcheck"
 author:
   - 'Graham Ollis <plicease@cpan.org>'
 build_requires:
-  Test::More: 0
+  Module::Build: 0.28
+  Test::More: 0.94
 configure_requires:
-  ExtUtils::MakeMaker: 6.30
+  Module::Build: 0.28
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300039, CPAN::Meta::Converter version 2.132661'
+generated_by: 'Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.141170'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: Alien-Packages-Cygwin
-no_index:
-  directory:
-    - inc
 recommends:
   Alien::Packages: 0.003
 requires:
@@ -23,7 +21,7 @@ requires:
   IPC::Run: 0
   perl: 5.006
 resources:
-  bugtracker: https://github.com/plicease/alien-packages-cygwin/issues
-  homepage: http://perl.wdlabs.com/Alien-Packages-Cygwin/
-  repository: git://github.com/plicease/alien-packages-cygwin.git
-version: 0.02
+  bugtracker: https://github.com/plicease/Alien-Packages-Cygwin/issues
+  homepage: http://perl.wdlabs.com/Alien-Packages-Cygwin
+  repository: git://github.com/plicease/Alien-Packages-Cygwin.git
+version: 0.03
